@@ -16,7 +16,7 @@ class globeGenerator
     ellipse(width/2,height/2-width*0.05,width*0.9);
     strokeWeight(2);
     image(textures[this.bg],width/2,height/2-width*0.05,width*0.9,width*0.9);
-    fill(139,69,19);
+    fill(131,105,83);
     rect(width/2,height*0.9,width*0.9,50);
     textSize(40);
     textAlign(CENTER, CENTER);
@@ -45,11 +45,11 @@ class globeGenerator
     this.globeObjects = [];
     random(1,10)>5 ? (this.bg = "palec") : (this.bg="domek");
     if(this.bg=="palec") return;
-    for(let i=0;i<3;i++)
+    for(let i=0;i<2;i++)
     {
       let angle = floor(random(0,360));
       obj = new globeObject(cos(angle)*random(width*0.1,width*0.25),
-                            sin(angle)*random(width*0.001,width*0.02),100,100);
+                            sin(angle)*random(width*0.001,width*0.009),100,100);
       let key;
       while (true)
       {

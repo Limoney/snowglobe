@@ -11,7 +11,6 @@ function preload()
   textures["grinch"]=loadImage("graphics/grinch.png");
   textures["snowman"]=loadImage("graphics/snowman.png");
   textures["boxy"]=loadImage("graphics/boxy4.png");
-  textures["birb"]=loadImage("graphics/birb.png");
   textures["snow"]=loadImage("graphics/snow.png");
   textures["domek"]=loadImage("graphics/domekv2.png");
   textures["palec"]=loadImage("graphics/menu4.png");
@@ -34,7 +33,7 @@ function setup()
   downloadFile.mousePressed(downloadGlobe);
   startgen.parent("menu");
   downloadFile.parent("menu");
-  gravity = createVector(0,1);
+  gravity = createVector(0,0001);
 }
 
 function downloadGlobe()
@@ -50,7 +49,7 @@ function owo()
 
 function draw()
 {
-  background("#2f4052");
+  background("#283645");
   generator.update();
 
 }
