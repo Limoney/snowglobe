@@ -14,7 +14,7 @@ class Anim
     }
     this.animationRow = 0;
     this.loopCurrentRowOnce = false;
-    this.updateInterval = 70;
+    this.updateInterval = 120;
     this.lastUpdateTime = 0;
   }
   setTexture(texture)

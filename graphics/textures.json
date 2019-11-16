@@ -23,13 +23,6 @@
       "interval": 200
     },
     {
-      "name": "birb",
-      "txWidth": 188,
-      "txHeight": 142,
-      "framesPerRow": 14,
-      "interval": 1
-    },
-    {
       "name": "snow",
       "txWidth": 128,
       "txHeight": 128,
