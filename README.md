@@ -1,5 +1,5 @@
 # Snowglobe
-It is application for relax and make people happy (especially these lonley one).
+It is application for relax and make people happy (especially those lonley ones).
 ## How to set up
 1. Clone or download source code
 2. Install PHP(prefered) or XAMPP
